@@ -4,5 +4,5 @@ jobs: # job definition
     hello: # job id
         runs-on: ubuntu-latest # runner (run on ubuntu)
         steps: # step definition
-        - run: echo "Hello, world" # run shell command
+            - run: echo "Hello, world" # run shell command
             - uses: actions/checkout@v4 # run Action
